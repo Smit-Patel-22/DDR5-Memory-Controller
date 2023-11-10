@@ -1,5 +1,5 @@
 module parser #(
-    parameter MEM_ADDR_WIDTH  = 64,
+    parameter MEM_ADDR_WIDTH  = 36,
     parameter CPU_CLK_WIDTH   = 8,
     parameter CPU_CORE_WIDTH  = 4,
     parameter MEM_OPN_WIDTH   = 3
