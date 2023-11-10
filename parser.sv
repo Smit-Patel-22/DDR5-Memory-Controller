@@ -9,7 +9,7 @@ module parser #(
     logic [CPU_CORE_WIDTH-1:0] cpu_core;
     logic [MEM_OPN_WIDTH-1:0] mem_opn;
     logic [CPU_CLK_WIDTH-1:0] cpu_clk;
-    logic [MEM_ADDR_WIDTH-1:0] mem_addr; // Assuming 4 elements in the unpacked array
+    logic [MEM_ADDR_WIDTH-1:0] mem_addr;
     string in_fname;
     string mode;
 
