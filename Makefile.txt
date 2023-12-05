@@ -1,3 +1,0 @@
-vlog dimm.sv
-vsim -c -do "run -all" +filename=tracefile.txt +debug=1 file_read
-gvim output.txt
